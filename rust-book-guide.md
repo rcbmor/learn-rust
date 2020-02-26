@@ -41,8 +41,10 @@ println!("s1 = {}, s2 = {}", s1, s2);
 
 ## 05. Structs and methods.
 
-## [] 06. Enums and pattern match.
-* Checkpoint
+## 06. Enums and pattern match.
+* Enum
+- enum that can encode the concept of a value being present or absent. This enum is Option<T>
+- you have to convert an Option<T> to a T before you can perform T operations with it
 ## [] 07. Package, crate, modules.
 * Checkpoint
 ## [] 08. Collections.
