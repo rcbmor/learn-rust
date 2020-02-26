@@ -8,7 +8,8 @@
 ## 02. Hands on.
 - _crate_ is a collection of Rust source code files.
 - Cargo fetches the latest versions of everything from the _registry_, which is a copy of data from Crates.io.
-## [] 03. Rust features.
+## 03. Rust features.
+Statements vs Expressions - evaluates to a value.
 ## [] 04. Ownership.
 * Checkpoint
 ## [] 05. Structs and methods.
