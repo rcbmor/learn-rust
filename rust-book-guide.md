@@ -39,7 +39,8 @@ println!("s1 = {}, s2 = {}", s1, s2);
   - where starting_index is the first position in the slice and
   - ending_index is one more than the last position in the slice.
 
-## [] 05. Structs and methods.
+## 05. Structs and methods.
+
 ## [] 06. Enums and pattern match.
 * Checkpoint
 ## [] 07. Package, crate, modules.
