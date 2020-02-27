@@ -46,7 +46,19 @@ println!("s1 = {}, s2 = {}", s1, s2);
 - enum that can encode the concept of a value being present or absent. This enum is Option<T>
 - you have to convert an Option<T> to a T before you can perform T operations with it
 ## [] 07. Package, crate, modules.
-* Checkpoint
+* module system:
+- Packages: A Cargo feature that lets you build, test, and share crates.
+  - one or more crates.
+  - must contain zero or one library.
+  - as many binary as you’d like.
+- Crates: A tree of modules that produces a library or executable.
+  - is a binary or library.
+- Modules and use: Let you control the organization, scope, and privacy of paths.
+  - organize code within a crate into groups.
+- Paths: A way of naming an item, such as a struct, function, or module.
+  - the use keyword that brings a path into scope;
+  - the pub keyword to make items public.
+ 
 ## [] 08. Collections.
 ## [] 09. Error handling.
 * Checkpoint
