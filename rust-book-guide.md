@@ -61,6 +61,20 @@ println!("s1 = {}, s2 = {}", s1, s2);
  
 ## [] 08. Collections.
 ## [] 09. Error handling.
+Recoverable (transient) and Unrecoverable (permanent)
+Result<T,E> or panic!
+
+Panic -> print failure, unwind and clean stack, quit.
+RUST_BACKTRACE=1 env to show stacktrace.
+
+enum Result<T,E> { Ok(T), Err(E) }
+T,E generic types
+helpermethods: unwrap -> return Ok(T) or panic. expect("my message for panic")
+? operator: return Ok() to expression or Err() out of function.
+- function should return Result or Option or implement ops:Try trait
+* (good practice) Custom types for valition.
+
+
 * Checkpoint
 ## [] 10. Generics, traits, lifetime.
 * Checkpoint
